@@ -2,20 +2,23 @@
 
 %\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{hyperref}
 
 %%%%%%%%%% BOOK INFORMATION %%%%%%%%%%
 \newcommand{\authorname}{Sinsec90}
 \newcommand{\booktitle}{Zyphtender}
-\newcommand{\subtitle}{Your Book’s Subtitle}
+\newcommand{\subtitle}{a fanfic challenge}
 \newcommand{\publisher}{Your Publisher}
 \newcommand{\editionyear}{2020}
 \newcommand{\isbn}{978-3-16-148410-0}   % replace this with your own ISBN
+\newcommand{\var}[1]{\linebreak[3]\mbox{\ttfamily#1}}
 \title{\booktitle}
 \author{\authorname}
 
 \usepackage{misc/options}
 
 \begin{document}
+\pagenumbering{arabic}
 \frontmatter
 \input{frontmatter/titlepage}
 \input{frontmatter/copyrightpage.tex}
@@ -24,5 +27,6 @@
 \input{content/chapter1}
 \input{content/chapter2}
 \input{content/chapter3}
+\input{content/chapter4}
 
 \end{document}
